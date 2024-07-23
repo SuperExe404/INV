@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación de Cumpleaños</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f0f8ff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .invitation {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+        }
+        .invitation h1 {
+            color: #ff6f61;
+        }
+        .invitation p {
+            color: #333;
+            margin: 10px 0;
+        }
+        .invitation .date, .invitation .location {
+            font-size: 1.2em;
+            margin: 20px 0;
+        }
+        .invitation .rsvp {
+            font-size: 1em;
+            color: #ff6f61;
+        }
+        @media (max-width: 600px) {
+            .invitation {
+                padding: 15px;
+            }
+            .invitation h1 {
+                font-size: 1.5em;
+            }
+            .invitation .date, .invitation .location {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="invitation">
+        <h1>¡Estás Invitado!</h1>
+        <p>Nos encantaría que nos acompañaras en la celebración del cumpleaños de [Nombre del Cumpleañera]</p>
+        <div class="date">
+            <strong>Fecha:</strong> Sábado, 5 de agosto de 2024
+        </div>
+        <div class="location">
+            <strong>Lugar:</strong> Parque Central, Ciudad
+        </div>
+        <p class="rsvp">Por favor confirma tu asistencia antes del 1 de agosto.</p>
+        <p>¡Esperamos verte allí!</p>
+    </div>
+</body>
+</html>
